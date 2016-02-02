@@ -1,0 +1,194 @@
+* {
+  font-family: 'Fjalla One';
+}
+
+body {
+  background-color: #F4F0CB;
+}
+
+
+/* Header */
+
+#header {
+  background-color: #453823;
+  max-height: 150px;
+  color: #BAA378;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#header h1 {
+  font-size: 70px;
+  padding-bottom: 5px;
+  border-bottom: 0px dashed;
+}
+
+
+/* Body */
+
+#stories {
+  padding-top: 25px;
+  border-right: 0px solid black;
+  border-bottom: 0px solid black;
+  border-left: 0px solid black;
+  background-color: #BAA378;
+  color: #453823;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.rowBorder {
+  text-align: center;
+}
+
+#articles {
+  height: 600px;
+}
+
+#articles .image {
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  border: 2px solid #453823;
+  margin: 0 auto;
+}
+
+#articles i,
+.upvotes {
+  color: red;
+  font-size: 40px;
+}
+
+#articles .upvotes {
+  font-size: 20px;
+  padding-right: 60px;
+  padding-left: 10px;
+}
+
+#articles .upvoteHeart {
+  float: right;
+}
+
+#articles h2 {
+  font-size: 30px;
+  color: #382E1C;
+}
+
+#articles h2:hover {
+  color: red;
+}
+
+#articles hr {
+  width: 70%;
+}
+
+#articles .date,
+#articles .author {
+  font-size: 20px;
+}
+
+
+/* @media CSS */
+
+@media screen and (max-width: 991px) {
+  
+  #header h1 {
+    font-size: 55px;
+  }
+  #articles {
+  height: 475px;
+}
+  
+  #articles h2 {
+    font-size: 20px;
+  }
+  #articles .date,
+  #articles .author {
+    font-size: 15px;
+  }
+  #articles i,
+  .upvotes {
+    font-size: 30px;
+    padding-left: 10px;
+  }
+  #articles .upvotes {
+    font-size: 15px;
+    
+  }
+  #articles .image {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #header {
+  border-radius: 0px;
+}
+   #stories {
+  border-radius: 0px;
+}
+  #header h1 {
+    font-size: 50px;
+  }
+  #articles {
+  height: 500px;
+}
+  
+  #articles h2 {
+    font-size: 30px;
+  }
+  #articles .date,
+  #articles .author {
+    font-size: 20px;
+  }
+  #articles i,
+  .upvotes {
+    font-size: 45px;
+    padding-left: 10px;
+  }
+  #articles .upvotes {
+    font-size: 20px;
+    
+  }
+  #articles .image {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 394px) {
+  #header {
+  border-radius:0px;
+}
+  #stories {
+  border-radius: 0px;
+}
+  #header h1 {
+    font-size: 50px;
+  }
+  #articles {
+  height: 500px;
+}
+  
+  #articles h2 {
+    font-size: 25px;
+  }
+  #articles .date,
+  #articles .author {
+    font-size: 18px;
+  }
+  #articles i,
+  .upvotes {
+    font-size: 40px;
+    padding-left: 10px;
+  }
+  #articles .upvotes {
+    font-size: 20px;
+    
+  }
+  #articles .image {
+    height: 250px;
+    width: 250px;
+  }
+}
